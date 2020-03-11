@@ -1,0 +1,17 @@
+def embLayer(): this function can read and handle pre trained weight file(glove),return some parameters for the further step using.
+
+def data_input(): this function can read and handle training data,separating labels and questions from training data.
+
+def train_bow_random(): this function can be used to train and save bag of word model with random word vector.
+
+def train_bilstm_random():this function can be used to train and save bilstm model with random word vector.
+
+def train_bilstm_pre():this function can be used to train and save bilstm model with pre trained weight.
+
+def train_bow_pre(): this function can be used to train and save bag of word model with pre trained weight.
+
+def train_ensemble_pre(): this function can be used to train and save model combining the sentence vector from bag of word model and bilstm model.
+
+def test_pre(): this function can be used to test the model with pre trained weight. And save result to output.txt file.
+
+def test_random():this function can be used to test the model with random word vector. And save result to output.txt file.
