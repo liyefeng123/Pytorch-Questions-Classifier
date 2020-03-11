@@ -51,9 +51,13 @@ for example: python question_classifier.py test -config ../data/bow_pre_train.co
 For config files
 =================
 1.bilstm_pre_train.config -- is the config file for the bilstm model with pre trained weight. 
+
 2.bilstm_random.config -- is the config file for the bilstm model with random word vector.
+
 3.bow_pre_train.config -- is the config file for the bag of word model with pre trained weight.
+
 4.bow_random.config -- is the config file for the bag of word model with random word vector. 
+
 5.ensemble_pre_train.config -- is the config file for the model combining the sentence vector from bag of word model and bilstm model.
 
 
