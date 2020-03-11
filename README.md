@@ -16,7 +16,8 @@ where s is a sentence/question, $vec_{bow}(s)$ is s' vector representation. $vec
 BiLSTM
 https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html is a good tutorial for using LSTM.
 
-########################################################################################################################################
+########################################################################################################################
+
 In the submited zip file, there are three folders:
 -document: a document containing a description for each function, a README file instructing how to use the code.
 -data: training, dev, test, configuration files (excluding word embeddings), and some extra files needed for our models
